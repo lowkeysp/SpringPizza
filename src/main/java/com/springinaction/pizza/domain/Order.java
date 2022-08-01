@@ -1,5 +1,6 @@
 package com.springinaction.pizza.domain;
 
+import com.springinaction.pizza.service.PricingEngine;
 import org.springframework.beans.factory.annotation.Configurable;
 
 import java.io.Serializable;
@@ -51,4 +52,10 @@ public class Order implements Serializable {
     public void setPayment(Payment payment) {
         this.payment = payment;
     }
+
+// injected
+private PricingEngine pricingEngine;
+  public void setPricingEngine(PricingEngine pricingEngine) {
+      this.pricingEngine = pricingEngine;
+   }
 }

@@ -4,6 +4,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
+
+  <!--??web.xml????????DispatcherServlet?ContextLoaderListener-->
+
+
+  <!-- ?????XML???????????????????????ContextLoader-Listener??-->
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>/WEB-INF/spring/root-config.xml</param-value>

@@ -6,7 +6,7 @@
 
   <body>
     <h2>Customer Registration</h2>
-    
+
     <form:form commandName="order">
       <input type="hidden" name="_flowExecutionKey" 
              value="${flowExecutionKey}"/>
